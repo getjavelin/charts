@@ -1,6 +1,11 @@
 # Javelin Helm Charts
 
-* Add helm repo to the system
+#### Charts
+
+* javelin-webapp
+
+
+#### Add helm repo to the system
 
 ```
 export CHART_NAME="javelin-charts"
