@@ -1,3 +1,24 @@
 apiVersion: v1
-entries: {}
-generated: "2024-04-30T04:01:55.822853171Z"
+entries:
+  javelin-webapp:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-04-30T04:04:24.834260837Z"
+    description: Javelin - webapp
+    digest: 45179a41e453fcc8e02c5ba79504f6e7f92cac3692346aebeac9f2a4b4a2ff29
+    name: javelin-webapp
+    type: application
+    urls:
+    - javelin-webapp-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0-latest
+    created: "2024-04-30T04:04:24.833814999Z"
+    description: Javelin - webapp
+    digest: 240be299c72450ddb847dd91f47bc6a1dad12eb28f546b4c6ad086b4e4657b5c
+    name: javelin-webapp
+    type: application
+    urls:
+    - javelin-webapp-1.0.0-latest.tgz
+    version: 1.0.0-latest
+generated: "2024-04-30T04:04:24.832821145Z"
