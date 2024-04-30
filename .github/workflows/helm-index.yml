@@ -40,7 +40,7 @@ jobs:
           path: ${{ env.CHARTS_LOCAL_REPO }}
 
       - name: Helm Installation
-        uses: azure/setup-helm@v3
+        uses: azure/setup-helm@v4.2.0
         with:
           # version: v3.13.0
           version: latest
