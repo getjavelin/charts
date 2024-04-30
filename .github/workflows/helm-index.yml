@@ -1,0 +1,64 @@
+name: Update Helm Charts Index
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - '**.tgz'
+
+env:
+  env_var: ${{ vars.ENV_CONTEXT_VAR }}
+  CHARTS_REPO: "getjavelin/charts"
+  CHARTS_LOCAL_REPO: "charts-repo"
+  CHARTS_NAME: "javelin-webapp javelin-admin"
+
+jobs:
+  index-update:
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'skip ci')"
+    steps:
+      - name: Set deploy env
+        id: env_setup
+        shell: bash
+        run: |-
+          if [[ "${{github.base_ref}}" == "main" || "${{github.ref}}" == "refs/heads/main" ]] ; then
+            echo "purge_count=100" >> ${GITHUB_OUTPUT}
+          fi
+
+      - name: Git Checkout
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.CHARTS_REPO }}
+          token: ${{ secrets.DEVOPS_GITHUB_TOKEN }}
+          fetch-depth: 0
+          persist-credentials: true
+          ref: main
+          path: ${{ env.CHARTS_LOCAL_REPO }}
+
+      - name: Helm Installation
+        uses: azure/setup-helm@v3
+        with:
+          # version: v3.13.0
+          version: latest
+          token: ${{ secrets.DEVOPS_GITHUB_TOKEN }}
+
+      - name: Update Index
+        env:
+          GITHUB_TOKEN: ${{ secrets.DEVOPS_GITHUB_TOKEN }}
+          PURGE_COUNT: ${{ steps.env_setup.outputs.purge_count }}
+        run: |
+          git config --global user.email "devops.bot@getjavelin.io"
+          git config --global user.name "DevOps Bot"
+          cd ${{ env.CHARTS_LOCAL_REPO }}
+          git pull
+          for mychart in ${{ env.CHARTS_NAME }} ; do
+            ls -trl ${mychart}*.tgz | grep -v latest | awk '{print $9}' | tail -n +${{ env.PURGE_COUNT }} | xargs -I {} rm -- {}
+          done
+          helm repo index .
+          git add .
+          git commit -m "Updating chart index - skip ci"
+          git push origin main
