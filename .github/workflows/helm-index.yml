@@ -12,6 +12,7 @@ env:
   CHARTS_REPO: "getjavelin/charts"
   CHARTS_LOCAL_REPO: "charts-repo"
   CHARTS_NAME: "javelin-webapp javelin-admin"
+  CHART_RETENTION: "50"
 
 jobs:
   index-update:
@@ -21,14 +22,6 @@ jobs:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'skip ci')"
     steps:
-      - name: Set deploy env
-        id: env_setup
-        shell: bash
-        run: |-
-          if [[ "${{github.base_ref}}" == "main" || "${{github.ref}}" == "refs/heads/main" ]] ; then
-            echo "purge_count=100" >> ${GITHUB_OUTPUT}
-          fi
-
       - name: Git Checkout
         uses: actions/checkout@v4
         with:
@@ -49,14 +42,13 @@ jobs:
       - name: Update Index
         env:
           GITHUB_TOKEN: ${{ secrets.DEVOPS_GITHUB_TOKEN }}
-          PURGE_COUNT: ${{ steps.env_setup.outputs.purge_count }}
         run: |
           git config --global user.email "devops.bot@getjavelin.io"
           git config --global user.name "DevOps Bot"
           cd ${{ env.CHARTS_LOCAL_REPO }}
           git pull
           for mychart in ${{ env.CHARTS_NAME }} ; do
-            ls -trl ${mychart}*.tgz | grep -v latest | awk '{print $9}' | tail -n +${{ env.PURGE_COUNT }} | xargs -I {} rm -- {}
+            ls -trl ${mychart}*.tgz | grep -v latest | awk '{print $9}' | tail -n +${{ env.CHART_RETENTION }} | xargs -I {} rm -- {}
           done
           helm repo index .
           git add .
