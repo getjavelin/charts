@@ -11,7 +11,7 @@ env:
   env_var: ${{ vars.ENV_CONTEXT_VAR }}
   CHARTS_REPO: "getjavelin/charts"
   CHARTS_LOCAL_REPO: "charts-repo"
-  CHARTS_NAME: "javelin-webapp javelin-admin"
+  CHARTS_NAME: "javelin-webapp javelin-admin javelin-core"
   CHART_RETENTION: "50"
 
 jobs:
