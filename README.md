@@ -3,7 +3,8 @@
 #### Charts
 
 * javelin-webapp
-
+* javelin-admin
+* javelin-core
 
 #### Add helm repo to the system
 
