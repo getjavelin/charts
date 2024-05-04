@@ -5,6 +5,7 @@
 * javelin-webapp
 * javelin-admin
 * javelin-core
+* javelin-ingress
 
 #### Add helm repo to the system
 
