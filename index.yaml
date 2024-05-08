@@ -3,7 +3,7 @@ entries:
   javelin-admin:
   - apiVersion: v2
     appVersion: 1.0.9
-    created: "2024-05-08T13:44:15.56887509Z"
+    created: "2024-05-08T13:44:51.362228897Z"
     description: Javelin - admin
     digest: 30bda0b5e48c0ea2e02ad33c3b4526534f3ef7169847790ded909df4eb5dfc97
     name: javelin-admin
@@ -13,7 +13,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 1.0.8
-    created: "2024-05-08T13:44:15.568387381Z"
+    created: "2024-05-08T13:44:51.361735935Z"
     description: Javelin - admin
     digest: b4ff09d27fa1cc7c9331fef20bab34dd60184528ac90d8f76b44847c432d6adb
     name: javelin-admin
@@ -23,7 +23,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 1.0.7
-    created: "2024-05-08T13:44:15.567897168Z"
+    created: "2024-05-08T13:44:51.361229397Z"
     description: Javelin - admin
     digest: a02d1bb660b36e233bdfeb9fdfefb5a4cdfffb4bf7f1f146dff21d7d8e858ff7
     name: javelin-admin
@@ -33,7 +33,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.0.6
-    created: "2024-05-08T13:44:15.567413036Z"
+    created: "2024-05-08T13:44:51.359971322Z"
     description: Javelin - admin
     digest: 8a81bf0ef89ec3d244b023b60a13d3efcfb9b8c137293f98af762a82e3e18ed4
     name: javelin-admin
@@ -43,7 +43,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2024-05-08T13:44:15.566930286Z"
+    created: "2024-05-08T13:44:51.359507244Z"
     description: Javelin - admin
     digest: 8735caa035c036de2ce5f8525b38595b389926c5d360477e28277a9dff577f8c
     name: javelin-admin
@@ -53,7 +53,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2024-05-08T13:44:15.566454931Z"
+    created: "2024-05-08T13:44:51.35904537Z"
     description: Javelin - admin
     digest: 23e07773805bdee779846667b73a9e99864c098f44a26050d8df572276753d1b
     name: javelin-admin
@@ -63,7 +63,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2024-05-08T13:44:15.565919693Z"
+    created: "2024-05-08T13:44:51.358592333Z"
     description: Javelin - admin
     digest: 131b13fe197a619a8a7747d66860747e1fa72888ffe73deb9ff62ae302580323
     name: javelin-admin
@@ -73,7 +73,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2024-05-08T13:44:15.565304918Z"
+    created: "2024-05-08T13:44:51.358126251Z"
     description: Javelin - admin
     digest: ad589c7f905213d86f3c7d19e76f01355edb7b4ee1d7c6f6da14e4aaf1417a3f
     name: javelin-admin
@@ -83,7 +83,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-05-08T13:44:15.564127396Z"
+    created: "2024-05-08T13:44:51.357645482Z"
     description: Javelin - admin
     digest: f083a3a1e718193fb5f8d2001b52ffbf921e82420c9bdfdd02ce354c8f7bfabe
     name: javelin-admin
@@ -93,7 +93,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-05-08T13:44:15.563487444Z"
+    created: "2024-05-08T13:44:51.357176074Z"
     description: Javelin - admin
     digest: 70ba1f1b73219fca1bf2e091a977c143e4aaa7475b13cd2e4325d41b9871816a
     name: javelin-admin
@@ -103,7 +103,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0-latest
-    created: "2024-05-08T13:44:15.562996499Z"
+    created: "2024-05-08T13:44:51.35667684Z"
     description: Javelin - admin
     digest: 4a84b30263de6593cb8b89808daf384e4e9e8fbcfe8d2f47f6924a0dec34e5c7
     name: javelin-admin
@@ -113,8 +113,18 @@ entries:
     version: 0.0.0-latest
   javelin-core:
   - apiVersion: v2
+    appVersion: 1.0.4
+    created: "2024-05-08T13:44:51.365091321Z"
+    description: Javelin - core
+    digest: 28fe9df4b86ad6fb4eca6feed7404780dc70aa0df3a93b6f09fca9001f1109c9
+    name: javelin-core
+    type: application
+    urls:
+    - javelin-core-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v2
     appVersion: 1.0.3
-    created: "2024-05-08T13:44:15.572186816Z"
+    created: "2024-05-08T13:44:51.364616803Z"
     description: Javelin - core
     digest: 1ac049a1f3a5e8326fb2565640987d344abca895d48c7f4818707b65749da7fb
     name: javelin-core
@@ -124,7 +134,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2024-05-08T13:44:15.570875437Z"
+    created: "2024-05-08T13:44:51.364107681Z"
     description: Javelin - core
     digest: 6754b37a025e6ae89d40820ea7aa03f129b5706d5977b145716fb2143dc35b98
     name: javelin-core
@@ -134,7 +144,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-05-08T13:44:15.570363624Z"
+    created: "2024-05-08T13:44:51.363642401Z"
     description: Javelin - core
     digest: 3e2537df7620942dc42c94d422e48e9c27e885f2d33f9bb4ee70c54bd2dd1d33
     name: javelin-core
@@ -144,7 +154,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-05-08T13:44:15.569859164Z"
+    created: "2024-05-08T13:44:51.363175187Z"
     description: Javelin - core
     digest: 1fe949e743300da8670a0ca1b52548e4cc380cfbfbb5eff9d52d2a99362ade4c
     name: javelin-core
@@ -154,9 +164,9 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0-latest
-    created: "2024-05-08T13:44:15.569379991Z"
+    created: "2024-05-08T13:44:51.362714656Z"
     description: Javelin - core
-    digest: 0beba05128b5d35809cf0e5de177f1f5c6ce1d72e2cef1b9453a3ec8925bdf29
+    digest: 3dab126fd73fcdd974e1c65c1768077bba7880cb41c2768ecf51059255f489ca
     name: javelin-core
     type: application
     urls:
@@ -165,7 +175,7 @@ entries:
   javelin-ingress:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-05-08T13:44:15.572813554Z"
+    created: "2024-05-08T13:44:51.365650567Z"
     description: Javelin - ingress
     digest: ff58bdb989402cf7d38dea563ddfaed15b62854ce9cf65d75cfdfaee0def9f9c
     name: javelin-ingress
@@ -175,7 +185,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-05-08T13:44:15.572622467Z"
+    created: "2024-05-08T13:44:51.365466573Z"
     description: Javelin - ingress
     digest: bb3ca49bb60570b7a9e1af57dfb31a43e60ab21ec750dc12ba7df3488abeb835
     name: javelin-ingress
@@ -185,7 +195,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0-latest
-    created: "2024-05-08T13:44:15.572411835Z"
+    created: "2024-05-08T13:44:51.36528312Z"
     description: Javelin - ingress
     digest: eabe8484b03a27e8f1124718cfc099fffa0fbe7e067e241afcdeb4cbd5f7e70d
     name: javelin-ingress
@@ -196,7 +206,7 @@ entries:
   javelin-webapp:
   - apiVersion: v2
     appVersion: 1.0.10
-    created: "2024-05-08T13:44:15.574547064Z"
+    created: "2024-05-08T13:44:51.368242265Z"
     description: Javelin - webapp
     digest: e99f16fc3d14d002159b187dce0f3c8b89c8d0a6566784bef6558e6ec7dbb1b6
     name: javelin-webapp
@@ -206,7 +216,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: 1.0.9
-    created: "2024-05-08T13:44:15.579061866Z"
+    created: "2024-05-08T13:44:51.371786404Z"
     description: Javelin - webapp
     digest: 5cd7af5a13e3625dc0ce62e61b170c5756bbc1c94720c50f6b9b1a28662de03a
     name: javelin-webapp
@@ -216,7 +226,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 1.0.8
-    created: "2024-05-08T13:44:15.578576021Z"
+    created: "2024-05-08T13:44:51.371346792Z"
     description: Javelin - webapp
     digest: 10d02610492c4adefddf85db408cbf266483b5c6ecba59d04268228455cbb18d
     name: javelin-webapp
@@ -226,7 +236,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 1.0.7
-    created: "2024-05-08T13:44:15.577477173Z"
+    created: "2024-05-08T13:44:51.370910035Z"
     description: Javelin - webapp
     digest: ad3d4acaed0f19d881c868145e5f6f2ede5f28a952d51e4e366b0337f004494a
     name: javelin-webapp
@@ -236,7 +246,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.0.6
-    created: "2024-05-08T13:44:15.576738156Z"
+    created: "2024-05-08T13:44:51.370463109Z"
     description: Javelin - webapp
     digest: b27e7c19de4bd1cbffd8678a6f141781c801e5df6b7edd5d77f626ae2ced1c0d
     name: javelin-webapp
@@ -246,7 +256,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2024-05-08T13:44:15.576284952Z"
+    created: "2024-05-08T13:44:51.370025801Z"
     description: Javelin - webapp
     digest: 9829561c62d182477a4e8ed999e70180c21126fc42d531e3383af55eab861249
     name: javelin-webapp
@@ -256,7 +266,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2024-05-08T13:44:15.575841926Z"
+    created: "2024-05-08T13:44:51.36957072Z"
     description: Javelin - webapp
     digest: 3deda9cf175eee1caa6180b5ef0b6d7f422796d894a1ae09ba0d7612ab565982
     name: javelin-webapp
@@ -266,7 +276,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2024-05-08T13:44:15.575408329Z"
+    created: "2024-05-08T13:44:51.369144262Z"
     description: Javelin - webapp
     digest: ec3a33eaa96c68e56cd8a41328a387b0d8623ad96ca351e9b8ef44e56852f053
     name: javelin-webapp
@@ -276,7 +286,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2024-05-08T13:44:15.574980391Z"
+    created: "2024-05-08T13:44:51.368713626Z"
     description: Javelin - webapp
     digest: 18681bb9dfb0d875410ea28908b36ce103b46890661ea3d5d9cd9187e4f1d6f6
     name: javelin-webapp
@@ -286,7 +296,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-05-08T13:44:15.574063503Z"
+    created: "2024-05-08T13:44:51.367786312Z"
     description: Javelin - webapp
     digest: 3c05ae087287a045993177b9dd2dd7b7346584df9a0e4ca8f5bc64ca56580bfb
     name: javelin-webapp
@@ -296,7 +306,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-05-08T13:44:15.573675139Z"
+    created: "2024-05-08T13:44:51.367175149Z"
     description: Javelin - webapp
     digest: 45179a41e453fcc8e02c5ba79504f6e7f92cac3692346aebeac9f2a4b4a2ff29
     name: javelin-webapp
@@ -306,7 +316,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0-latest
-    created: "2024-05-08T13:44:15.573284822Z"
+    created: "2024-05-08T13:44:51.36610142Z"
     description: Javelin - webapp
     digest: 14cb125e5d9a3fe246a70989ef7bd17368c04c21853b4442c1acd3695e1af1ed
     name: javelin-webapp
@@ -314,4 +324,4 @@ entries:
     urls:
     - javelin-webapp-0.0.0-latest.tgz
     version: 0.0.0-latest
-generated: "2024-05-08T13:44:15.562244518Z"
+generated: "2024-05-08T13:44:51.355975078Z"
