@@ -6,6 +6,8 @@
 * javelin-admin
 * javelin-core
 * javelin-ingress
+* javelin-icap
+* javelin-promptfoo
 
 #### Add helm repo to the system
 
