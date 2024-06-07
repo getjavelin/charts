@@ -2,6 +2,7 @@
 
 #### Charts
 
+* javelin-common
 * javelin-webapp
 * javelin-admin
 * javelin-core
