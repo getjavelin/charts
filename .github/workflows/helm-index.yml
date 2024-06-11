@@ -37,7 +37,6 @@ jobs:
         with:
           # version: v3.13.0
           version: latest
-          token: ${{ secrets.DEVOPS_GITHUB_TOKEN }}
 
       - name: Update Index
         env:
