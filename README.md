@@ -9,6 +9,7 @@
 * javelin-ingress
 * javelin-icap
 * javelin-promptfoo
+* javelin-evals
 
 #### Add helm repo to the system
 
