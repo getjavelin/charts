@@ -10,6 +10,7 @@
 * javelin-icap
 * javelin-promptfoo
 * javelin-evals
+* javelin-flag
 
 #### Add helm repo to the system
 
