@@ -1,6 +1,18 @@
-# Javelin Helm Charts
+# Javelin Kubernetes Helm Charts
 
-#### Charts
+#### Usage
+
+[Helm](https://helm.sh/) must be installed to use the charts. Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
+
+Once Helm is set up properly, add the repo as follows:
+
+```code
+helm repo add javelin-charts "https://getjavelin.github.io/charts"
+```
+
+You can then run `helm search repo javelin-charts` to see the charts.
+
+#### Available Charts
 
 * javelin-common
 * javelin-webapp
@@ -12,11 +24,4 @@
 * javelin-evals
 * javelin-flag
 
-#### Add helm repo to the system
-
-```
-export CHART_NAME="javelin-charts"
-helm repo add ${CHART_NAME} "https://getjavelin.github.io/charts"
-helm repo update
-helm search repo ${CHART_NAME} --versions --devel
-```
+If you want to list all the available versions, then run `helm search repo javelin-charts --versions --devel`
