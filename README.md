@@ -23,5 +23,7 @@ You can then run `helm search repo javelin-charts` to see the charts.
 * javelin-promptfoo
 * javelin-evals
 * javelin-flag
+* javelin-redis
+* javelin-postgresql
 
 If you want to list all the available versions, then run `helm search repo javelin-charts --versions --devel`
