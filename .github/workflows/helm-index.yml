@@ -3,15 +3,15 @@ name: Update Helm Charts Index
 on:
   push:
     branches:
-      - "main"
+      - "charts"
     paths:
       - '**.tgz'
 
 env:
   env_var: ${{ vars.ENV_CONTEXT_VAR }}
   CHARTS_REPO: "getjavelin/charts"
+  CHARTS_BRANCH: "charts"
   CHARTS_LOCAL_REPO: "charts-repo"
-  CHARTS_NAME: "javelin-webapp javelin-admin javelin-core"
   CHART_RETENTION: "20"
 
 jobs:
@@ -29,7 +29,7 @@ jobs:
           token: ${{ secrets.DEVOPS_GITHUB_TOKEN }}
           fetch-depth: 0
           persist-credentials: true
-          ref: main
+          ref: ${{ env.CHARTS_BRANCH }}
           path: ${{ env.CHARTS_LOCAL_REPO }}
 
       - name: Helm Installation
@@ -46,7 +46,8 @@ jobs:
           git config --global user.name "DevOps Bot"
           cd ${{ env.CHARTS_LOCAL_REPO }}
           git pull
-          for mychart in ${{ env.CHARTS_NAME }} ; do
+          for mychart_ver in $(ls release) ; do 
+            mychart=$(echo ${mychart_ver} | sed "s|_do_not_edit.txt||g")
             ls -trl ${mychart}*.tgz | grep -v latest | awk '{print $9}' | tail -n +${{ env.CHART_RETENTION }} | xargs -I {} rm -- {}
           done
           helm repo index .
