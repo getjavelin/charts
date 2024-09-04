@@ -1,4 +1,4 @@
-# Javelin Kubernetes Helm Charts
+# Javelin Helm Charts
 
 #### Usage
 
