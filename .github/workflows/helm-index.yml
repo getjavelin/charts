@@ -53,4 +53,4 @@ jobs:
           helm repo index .
           git add .
           git commit -m "Updating chart index - skip ci"
-          git push origin main
+          git push origin ${{ env.CHARTS_BRANCH }}
