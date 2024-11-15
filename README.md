@@ -23,6 +23,7 @@ You can then run `helm search repo javelin-charts` to see the charts.
 * javelin-promptfoo
 * javelin-evals
 * javelin-flag
+* javelin-dlp
 * javelin-redis
 * javelin-postgresql
 * javelin-elastic
