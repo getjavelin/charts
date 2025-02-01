@@ -12,6 +12,8 @@ helm repo add javelin-charts "https://getjavelin.github.io/charts"
 
 You can then run `helm search repo javelin-charts` to see the charts.
 
+If you want to list all the available versions, then run `helm search repo javelin-charts --versions --devel`
+
 #### Available Charts
 
 * javelin-common
@@ -29,5 +31,3 @@ You can then run `helm search repo javelin-charts` to see the charts.
 * javelin-postgresql
 * javelin-elastic
 * javelin-kibana
-
-If you want to list all the available versions, then run `helm search repo javelin-charts --versions --devel`
