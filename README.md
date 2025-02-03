@@ -31,3 +31,8 @@ If you want to list all the available versions, then run `helm search repo javel
 * javelin-postgresql
 * javelin-elastic
 * javelin-kibana
+* javelin-eval
+
+* javelin-httpd
+
+* javelin-redteam
