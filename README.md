@@ -1,6 +1,6 @@
 # Javelin Helm Charts
 
-#### Charts
+#### Usage
 
 [Helm](https://helm.sh/) must be installed to use the charts. Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 
@@ -19,6 +19,7 @@ If you want to list all the available versions, then run `helm search repo javel
 * javelin-common
 * javelin-webapp
 * javelin-admin
+* javelin-aispm
 * javelin-core
 * javelin-ingress
 * javelin-icap
@@ -31,5 +32,6 @@ If you want to list all the available versions, then run `helm search repo javel
 * javelin-elastic
 * javelin-kibana
 * javelin-eval
+* javelin-httpd
 * javelin-httpd
 * javelin-redteam
