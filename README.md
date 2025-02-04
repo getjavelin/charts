@@ -15,3 +15,36 @@ You can then run `helm search repo javelin-charts` to see the charts.
 If you want to list all the available versions, then run `helm search repo javelin-charts --versions --devel`
 
 #### Available Charts
+* javelin-admin
+
+* javelin-aispm
+
+* javelin-common
+
+* javelin-core
+
+* javelin-dlp
+
+* javelin-elastic
+
+* javelin-eval
+
+* javelin-flag
+
+* javelin-httpd
+
+* javelin-icap
+
+* javelin-ingress
+
+* javelin-kafka
+
+* javelin-kibana
+
+* javelin-postgresql
+
+* javelin-redis
+
+* javelin-redteam
+
+* javelin-webapp
