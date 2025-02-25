@@ -50,3 +50,5 @@ If you want to list all the available versions, then run `helm search repo javel
 * javelin-webapp
 
 * javelin-guard
+
+* javelin-guard-cm
