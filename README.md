@@ -17,10 +17,6 @@ If you want to list all the available versions, then run `helm search repo javel
 #### Available Charts
 * javelin-admin
 
-* javelin-aispm
-
-* javelin-common
-
 * javelin-core
 
 * javelin-dlp
@@ -33,11 +29,7 @@ If you want to list all the available versions, then run `helm search repo javel
 
 * javelin-httpd
 
-* javelin-icap
-
 * javelin-ingress
-
-* javelin-kafka
 
 * javelin-kibana
 
