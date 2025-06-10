@@ -37,8 +37,6 @@ If you want to list all the available versions, then run `helm search repo javel
 
 * javelin-redis
 
-* javelin-redteam
-
 * javelin-webapp
 
 * javelin-guard
