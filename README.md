@@ -55,3 +55,5 @@ If you want to list all the available versions, then run `helm search repo javel
 * javelin-guard-hallucination
 
 * javelin-ramparts-server
+
+* javelin-redteam-seeder
