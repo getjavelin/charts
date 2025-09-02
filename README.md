@@ -15,6 +15,7 @@ You can then run `helm search repo javelin-charts` to see the charts.
 If you want to list all the available versions, then run `helm search repo javelin-charts --versions --devel`
 
 #### Available Charts
+
 * javelin-admin
 
 * javelin-core
@@ -54,5 +55,3 @@ If you want to list all the available versions, then run `helm search repo javel
 * javelin-guard-hallucination
 
 * javelin-ramparts-server
-
-* javelin-redteam-seeder
