@@ -7,7 +7,7 @@
 Once Helm is set up properly, add the repo as follows:
 
 ```code
-helm repo add javelin-charts "https://getjavelin.github.io/charts"
+helm repo add javelin-charts "https://highflame-ai.github.io/charts"
 ```
 
 You can then run `helm search repo javelin-charts` to see the charts.
