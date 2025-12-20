@@ -16,49 +16,18 @@ If you want to list all the available versions, then run `helm search repo javel
 
 #### Available Charts
 
-* javelin-admin
-
-* javelin-core
-
-* javelin-dlp
-
 * javelin-elastic
 
-* javelin-eval
-
-* javelin-flag
-
-* javelin-httpd
+* javelin-generic
 
 * javelin-ingress
 
 * javelin-kibana
 
+* javelin-kafka
+
 * javelin-postgresql
 
 * javelin-redis
 
-* javelin-webapp
-
-* javelin-guard
-
-* javelin-guard-cm
-
-* javelin-doc
-
 * javelin-redteam
-
-* javelin-guard-hall-lettuce
-
-* javelin-guard-lang
-
-* javelin-guard-hallucination
-
-* javelin-ramparts-server
-
-* javelin-chat-tester
-
-* javelin-scout
-* javelin-generic
-
-* javelin-kafka
