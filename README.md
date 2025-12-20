@@ -7,7 +7,7 @@
 Once Helm is set up properly, add the repo as follows:
 
 ```code
-helm repo add javelin-charts "https://getjavelin.github.io/charts"
+helm repo add javelin-charts "https://highflame-ai.github.io/charts"
 ```
 
 You can then run `helm search repo javelin-charts` to see the charts.
@@ -16,49 +16,18 @@ If you want to list all the available versions, then run `helm search repo javel
 
 #### Available Charts
 
-* javelin-admin
-
-* javelin-core
-
-* javelin-dlp
-
 * javelin-elastic
 
-* javelin-eval
-
-* javelin-flag
-
-* javelin-httpd
+* javelin-generic
 
 * javelin-ingress
 
 * javelin-kibana
 
+* javelin-kafka
+
 * javelin-postgresql
 
 * javelin-redis
 
-* javelin-webapp
-
-* javelin-guard
-
-* javelin-guard-cm
-
-* javelin-doc
-
 * javelin-redteam
-
-* javelin-guard-hall-lettuce
-
-* javelin-guard-lang
-
-* javelin-guard-hallucination
-
-* javelin-ramparts-server
-
-* javelin-chat-tester
-
-* javelin-scout
-* javelin-generic
-
-* javelin-kafka
