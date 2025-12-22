@@ -32,3 +32,18 @@ If you want to list all the available versions, then run `helm search repo javel
 * javelin-redis
 
 * javelin-redteam
+* highflame-elastic
+
+* highflame-generic
+
+* highflame-ingress
+
+* highflame-kafka
+
+* highflame-kibana
+
+* highflame-postgres
+
+* highflame-redis
+
+* highflame-redteam
