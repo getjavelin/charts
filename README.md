@@ -7,31 +7,16 @@
 Once Helm is set up properly, add the repo as follows:
 
 ```code
-helm repo add javelin-charts "https://highflame-ai.github.io/charts"
-helm repo update javelin-charts
+helm repo add highflame-charts "https://highflame-ai.github.io/charts"
+helm repo update highflame-charts
 ```
 
-You can then run `helm search repo javelin-charts` to see the charts.
+You can then run `helm search repo highflame-charts` to see the charts.
 
-If you want to list all the available versions, then run `helm search repo javelin-charts --versions --devel`
+If you want to list all the available versions, then run `helm search repo highflame-charts --versions --devel`
 
 #### Available Charts
 
-* javelin-elastic
-
-* javelin-generic
-
-* javelin-ingress
-
-* javelin-kibana
-
-* javelin-kafka
-
-* javelin-postgresql
-
-* javelin-redis
-
-* javelin-redteam
 * highflame-elastic
 
 * highflame-generic
