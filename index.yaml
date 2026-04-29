@@ -3,7 +3,7 @@ entries:
   highflame-elastic:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-04-29T12:54:06.101679453Z"
+    created: "2026-04-29T15:48:57.456529948Z"
     description: A Helm chart for deploying Highflame ElasticSearch
     digest: 7ac1b7d56d609dfb90f8b62e4a5d25cc2fb1f457c9fecb7351700023fde4b61d
     name: highflame-elastic
@@ -13,7 +13,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-04-29T12:54:06.099842931Z"
+    created: "2026-04-29T15:48:57.455339464Z"
     description: A Helm chart for deploying Highflame ElasticSearch
     digest: 23499f542cdef8dfec2fae49bf434fe059d6de2e2b45bbd58efa73b8ff8b07c8
     name: highflame-elastic
@@ -23,7 +23,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-04-29T12:54:06.098397961Z"
+    created: "2026-04-29T15:48:57.454046826Z"
     description: A Helm chart for deploying Highflame ElasticSearch
     digest: fb40648a67604d9f6a3a59c19a5f6c46f79ac632bfebad9b58d36e5fb9c241f3
     name: highflame-elastic
@@ -33,7 +33,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-29T12:54:06.097346908Z"
+    created: "2026-04-29T15:48:57.452773747Z"
     description: A Helm chart for deploying Highflame ElasticSearch
     digest: 9590704f6f54efb139c0aa45d5a0ef78784136e7af4b022353d2073ee89f61e5
     name: highflame-elastic
@@ -43,7 +43,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0-latest
-    created: "2026-04-29T12:54:06.096470834Z"
+    created: "2026-04-29T15:48:57.451555021Z"
     description: A Helm chart for deploying Highflame ElasticSearch
     digest: bb1bb57731807fb008163597daceb38ba91b5ddc71003aba644ccfaaf3f0e461
     name: highflame-elastic
@@ -53,8 +53,18 @@ entries:
     version: 0.0.0-latest
   highflame-generic:
   - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2026-04-29T15:48:57.469426712Z"
+    description: A Helm chart for deploying Highflame generic services
+    digest: 15ede711171f915dc0aa9d0a5f4922affdf5b230fde83ebc1140bbe00999e014
+    name: highflame-generic
+    type: application
+    urls:
+    - highflame-generic-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v2
     appVersion: 1.0.4
-    created: "2026-04-29T12:54:06.107344063Z"
+    created: "2026-04-29T15:48:57.467992331Z"
     description: A Helm chart for deploying Highflame generic services
     digest: 33a54ce878ea5aeb19563093c90b6b159afe4b609a3a90dcdcedadfc0472da4c
     name: highflame-generic
@@ -64,7 +74,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-04-29T12:54:06.106366437Z"
+    created: "2026-04-29T15:48:57.466487263Z"
     description: A Helm chart for deploying Highflame generic services
     digest: a5c042c8ea98ffdd67bc4aacc6db2fe61db4aa05a8aa289a99f83fece5baf35e
     name: highflame-generic
@@ -74,7 +84,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-04-29T12:54:06.105091796Z"
+    created: "2026-04-29T15:48:57.465159392Z"
     description: A Helm chart for deploying Highflame generic services
     digest: 20046f872355ad7600688071b429e5e05d46dd580b5973e4ac831f0e087bfc19
     name: highflame-generic
@@ -84,7 +94,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-04-29T12:54:06.104060159Z"
+    created: "2026-04-29T15:48:57.463887455Z"
     description: A Helm chart for deploying Highflame generic services
     digest: 0f28727bb9473390ba4e26453689652b955c5d8bd8433055ecabd07b1c3e0d82
     name: highflame-generic
@@ -94,7 +104,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-29T12:54:06.103326799Z"
+    created: "2026-04-29T15:48:57.46219847Z"
     description: A Helm chart for deploying Highflame generic services
     digest: 7c2631abdd1d1a5a10ec563926bc3a755305a5bc81f5f1c1dcba2058e003118a
     name: highflame-generic
@@ -104,9 +114,9 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0-latest
-    created: "2026-04-29T12:54:06.102548947Z"
+    created: "2026-04-29T15:48:57.458010559Z"
     description: A Helm chart for deploying Highflame generic services
-    digest: 4ebbc5bcac2dfc25912ba7c28d24710d50f19be304c235d82e7b3c737d19bb5c
+    digest: b8141c897dbb2e62deb13f4c2134c03212787b13727ab4964cb3afb75b7a271c
     name: highflame-generic
     type: application
     urls:
@@ -115,7 +125,7 @@ entries:
   highflame-ingress:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-29T12:54:06.108144879Z"
+    created: "2026-04-29T15:48:57.470379017Z"
     description: A Helm chart for deploying Highflame ingresses
     digest: f41533c30df9be969d7b1ec0822cb21a14fac1074bdebe71c64af4259ed09c7c
     name: highflame-ingress
@@ -125,7 +135,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0-latest
-    created: "2026-04-29T12:54:06.107706991Z"
+    created: "2026-04-29T15:48:57.469899084Z"
     description: A Helm chart for deploying Highflame ingresses
     digest: e477bee8fa56ffadbcf4b5a43a5f687f08a046952be194e866513f0f0c3ba5d6
     name: highflame-ingress
@@ -136,7 +146,7 @@ entries:
   highflame-kafka:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-04-29T12:54:06.11234411Z"
+    created: "2026-04-29T15:48:57.478189106Z"
     description: A Helm chart for deploying Highflame kafka service
     digest: 33353820d9ed36bd6860c2011d62650419098cf4cc9acb1c2059fa453d0b552b
     name: highflame-kafka
@@ -146,7 +156,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-04-29T12:54:06.111858834Z"
+    created: "2026-04-29T15:48:57.476567473Z"
     description: A Helm chart for deploying Highflame kafka service
     digest: 3d960bad04c1bd534cebd80b43f55828487b8c0c916f937d27232f8b953c17e6
     name: highflame-kafka
@@ -156,7 +166,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-04-29T12:54:06.111382865Z"
+    created: "2026-04-29T15:48:57.473017082Z"
     description: A Helm chart for deploying Highflame kafka service
     digest: 8c09438754bc29338000dacf0c0d1ff2c8071f92d66e0d9f935fef40523494fe
     name: highflame-kafka
@@ -166,7 +176,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-29T12:54:06.110853847Z"
+    created: "2026-04-29T15:48:57.472102554Z"
     description: A Helm chart for deploying Highflame kafka service
     digest: 7a29153655a4183e3bf4e2f960f04dcfe0b3b975c18762b1030cbbe5c6546d2d
     name: highflame-kafka
@@ -176,7 +186,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0-latest
-    created: "2026-04-29T12:54:06.109533912Z"
+    created: "2026-04-29T15:48:57.471251212Z"
     description: A Helm chart for deploying Highflame kafka service
     digest: 0b2e4d5ca08d9fcdcf60e743c6dd1be2d679a3154cbd98e96bfbc2d063975a66
     name: highflame-kafka
@@ -187,7 +197,7 @@ entries:
   highflame-kibana:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-04-29T12:54:06.115147026Z"
+    created: "2026-04-29T15:48:57.484914351Z"
     description: A Helm chart for deploying Highflame kibana service
     digest: 026d574baee0535f6c90da890ab44682e1c8233d70c291591d23f07b72992f1f
     name: highflame-kibana
@@ -197,7 +207,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-04-29T12:54:06.114604342Z"
+    created: "2026-04-29T15:48:57.483879792Z"
     description: A Helm chart for deploying Highflame kibana service
     digest: 8aabe9207acd5e80e04cfe07b5fd6c73c5e1c894cc375bf3136e9c105d10c61d
     name: highflame-kibana
@@ -207,7 +217,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-04-29T12:54:06.114013228Z"
+    created: "2026-04-29T15:48:57.482672232Z"
     description: A Helm chart for deploying Highflame kibana service
     digest: fb7d307cad463a0d83b6cb60f33375b782758fb47437d72c6c8a098f8c141b6c
     name: highflame-kibana
@@ -217,7 +227,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-29T12:54:06.113465785Z"
+    created: "2026-04-29T15:48:57.481617422Z"
     description: A Helm chart for deploying Highflame kibana service
     digest: 88f16eec588fdf052a9bed57241bed4df7d4d0b6f59b0b808465c6124e1f1953
     name: highflame-kibana
@@ -227,7 +237,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0-latest
-    created: "2026-04-29T12:54:06.112898256Z"
+    created: "2026-04-29T15:48:57.479876088Z"
     description: A Helm chart for deploying Highflame kibana service
     digest: b3535deebcc03e2000fea29c2cabcf8644da534d1f15d4ef3b1c08ad12eb172e
     name: highflame-kibana
@@ -237,8 +247,18 @@ entries:
     version: 0.0.0-latest
   highflame-postgres:
   - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2026-04-29T15:48:57.491419063Z"
+    description: A Helm chart for deploying Highflame postgres service
+    digest: 9162276dc1d1ca75c245d1c29cd21f5df7685588c98aba26bbf44fda4fc80f53
+    name: highflame-postgres
+    type: application
+    urls:
+    - highflame-postgres-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v2
     appVersion: 1.0.4
-    created: "2026-04-29T12:54:06.121017142Z"
+    created: "2026-04-29T15:48:57.490517604Z"
     description: A Helm chart for deploying Highflame postgres service
     digest: 7e78a26d6d31c47547fad8c1e32ac4eac11a2c5ec61631d18041a4a769359594
     name: highflame-postgres
@@ -248,7 +268,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-04-29T12:54:06.120465061Z"
+    created: "2026-04-29T15:48:57.489587463Z"
     description: A Helm chart for deploying Highflame postgres service
     digest: bd15f7ad88d5dda43298588394e32134867457649856b74d572dcd37969d64c3
     name: highflame-postgres
@@ -258,7 +278,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-04-29T12:54:06.119468329Z"
+    created: "2026-04-29T15:48:57.488632103Z"
     description: A Helm chart for deploying Highflame postgres service
     digest: 8a5cc0b843d3fac33509515d2068fa6915dcc55890eddba6b1360df79a3bc413
     name: highflame-postgres
@@ -268,7 +288,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-04-29T12:54:06.117724913Z"
+    created: "2026-04-29T15:48:57.487703233Z"
     description: A Helm chart for deploying Highflame postgres service
     digest: 7d2d4b13c0de824435c9d24cf35c6af34468a480262637ff76efc05b786214fa
     name: highflame-postgres
@@ -278,7 +298,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-29T12:54:06.116183231Z"
+    created: "2026-04-29T15:48:57.486771469Z"
     description: A Helm chart for deploying Highflame postgres service
     digest: 1501822ee1006032b0a17f9923364cfe2fadba482608518f463adeb1f8cc3cd7
     name: highflame-postgres
@@ -288,9 +308,9 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0-latest
-    created: "2026-04-29T12:54:06.115683298Z"
+    created: "2026-04-29T15:48:57.485871563Z"
     description: A Helm chart for deploying Highflame postgres service
-    digest: 7fb079aaed4e8ea970adfa18ccfb75f3bfe02f6c5c54a5870d3f0a5b037db23f
+    digest: b52f147237cba8c715937b3e3cefe870e401c876df9562d995ac8251773cf770
     name: highflame-postgres
     type: application
     urls:
@@ -298,8 +318,18 @@ entries:
     version: 0.0.0-latest
   highflame-redis:
   - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2026-04-29T15:48:57.501482057Z"
+    description: A Helm chart for deploying Highflame redis service
+    digest: 5d28eeed901c525e1c6260558911b54bd2f660dee839bb2716a5a98622c2470f
+    name: highflame-redis
+    type: application
+    urls:
+    - highflame-redis-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v2
     appVersion: 1.0.4
-    created: "2026-04-29T12:54:06.124098848Z"
+    created: "2026-04-29T15:48:57.500498985Z"
     description: A Helm chart for deploying Highflame redis service
     digest: d0684ff27ca4129a79dbb9fbaca83e7f1580eef9530ab9676146dab899fc5a06
     name: highflame-redis
@@ -309,7 +339,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-04-29T12:54:06.123608723Z"
+    created: "2026-04-29T15:48:57.499550646Z"
     description: A Helm chart for deploying Highflame redis service
     digest: f3c73e506447ba55d788b887ea26cb8345179281d71a5bcff311ba9c6a4d2509
     name: highflame-redis
@@ -319,7 +349,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-04-29T12:54:06.123099742Z"
+    created: "2026-04-29T15:48:57.498346602Z"
     description: A Helm chart for deploying Highflame redis service
     digest: 92e6e68e88d9e8be0d5e8cb206f89603763d0f5569df61f2bd09ea21cebabbb7
     name: highflame-redis
@@ -329,7 +359,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-04-29T12:54:06.122606911Z"
+    created: "2026-04-29T15:48:57.49709095Z"
     description: A Helm chart for deploying Highflame redis service
     digest: d116765b8d936c4a4f3b50f853e3332108df22655d0e67c9d7218e695527bed0
     name: highflame-redis
@@ -339,7 +369,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-29T12:54:06.122047847Z"
+    created: "2026-04-29T15:48:57.494697653Z"
     description: A Helm chart for deploying Highflame redis service
     digest: 07bec601ed68689004a2dbdf9b7f518e9033c94c50a3dcab332dac81bf183b14
     name: highflame-redis
@@ -349,9 +379,9 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0-latest
-    created: "2026-04-29T12:54:06.121561118Z"
+    created: "2026-04-29T15:48:57.492307612Z"
     description: A Helm chart for deploying Highflame redis service
-    digest: c62d7844abb268f3e3d6268fbf12aa6371b15d19334a1f820dec892d2338ee64
+    digest: 349fc3c117ec599b4dadd51a8e5b33c29300786072a398cb3bec9f5e027536b7
     name: highflame-redis
     type: application
     urls:
@@ -360,7 +390,7 @@ entries:
   highflame-redteam:
   - apiVersion: v2
     appVersion: 1.0.6
-    created: "2026-04-29T12:54:06.134984791Z"
+    created: "2026-04-29T15:48:57.519998369Z"
     description: A Helm chart for deploying Highflame redteam service
     digest: 30f8b7f78ccb1435e5be79f16b13e12754c2c0edf8eea83870caf20d0e0d514c
     name: highflame-redteam
@@ -370,7 +400,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2026-04-29T12:54:06.133836406Z"
+    created: "2026-04-29T15:48:57.518103273Z"
     description: A Helm chart for deploying Highflame redteam service
     digest: 8d3fc339511e9e4b11de6f258e251d0fb6d2e09ec8af2db6af0b8110a2b00b05
     name: highflame-redteam
@@ -380,7 +410,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2026-04-29T12:54:06.13221608Z"
+    created: "2026-04-29T15:48:57.516012112Z"
     description: A Helm chart for deploying Highflame redteam service
     digest: 1f477bda6e78c617144bfd5e300c7f8a71682cc31d7ef7a1ec835805463ee1e3
     name: highflame-redteam
@@ -390,7 +420,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-04-29T12:54:06.131145861Z"
+    created: "2026-04-29T15:48:57.513997466Z"
     description: A Helm chart for deploying Highflame redteam service
     digest: 0278ad294ae4ccf1795e4963328e12196a699e7eb453b7e3c95a5d0471e006b1
     name: highflame-redteam
@@ -400,7 +430,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-04-29T12:54:06.130072766Z"
+    created: "2026-04-29T15:48:57.508771371Z"
     description: A Helm chart for deploying Highflame redteam service
     digest: 60d824f4bd5e6d62bd0e7def5f052cc48b8af2988111b531e79f9c709c31ce70
     name: highflame-redteam
@@ -410,7 +440,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-04-29T12:54:06.128840635Z"
+    created: "2026-04-29T15:48:57.506925039Z"
     description: A Helm chart for deploying Highflame redteam service
     digest: 552d28c599f1e04c523fc1c1821193527e1a3809a6730a3caf1693f56657adf6
     name: highflame-redteam
@@ -420,7 +450,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-29T12:54:06.126238074Z"
+    created: "2026-04-29T15:48:57.505230115Z"
     description: A Helm chart for deploying Highflame redteam service
     digest: a5e185096fcb518f892fa0f4cfa306d3745773b23f99402bec78175e8b96d83a
     name: highflame-redteam
@@ -430,7 +460,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0-latest
-    created: "2026-04-29T12:54:06.125281647Z"
+    created: "2026-04-29T15:48:57.503560158Z"
     description: A Helm chart for deploying Highflame redteam service
     digest: a5d2e68223697afb295fcedc93878c92a666859da198dbb1e81e9d0665770198
     name: highflame-redteam
@@ -438,4 +468,4 @@ entries:
     urls:
     - highflame-redteam-0.0.0-latest.tgz
     version: 0.0.0-latest
-generated: "2026-04-29T12:54:06.095565082Z"
+generated: "2026-04-29T15:48:57.450059007Z"
