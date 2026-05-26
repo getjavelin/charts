@@ -17,15 +17,9 @@ If you want to list all the available versions, then run `helm search repo highf
 
 #### Available Charts
 
-* highflame-elastic
-
 * highflame-generic
 
 * highflame-ingress
-
-* highflame-kafka
-
-* highflame-kibana
 
 * highflame-postgres
 
